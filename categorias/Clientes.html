@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="cabecalho">
+            <div class="logo"><h1>LOGO</h1></div>
+            <div class="menu">
+                <ul>
+                <li><a href="#">Compras</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Clientes</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="formulario">
+            <h2>Cadastrar Clientes</h2>
+            <form action="">
+                <div class="dados"><label for="">Nome Completo:</label><input type="text" id="txtnome" placeholder="Digite aqui..."><br></div>
+                <div class="dados"><label for="">Telefone:</label><input type="text" id="txttelefone" placeholder="(xx) xxxx-xxxx"><br></div>
+                <div class="dados"><label for=""> E-mail:</label><input type="email" id="txtemail" placeholder="@email.com"><br></div>
+                <input type="button" value="Cadastrar" onclick="cadastro()">
+            </form>
+        </div>
+        <div class="catalogo">
+            <h2>Lista de Clientes</h2>
+            <table class="tabela">
+                <tr>
+                    <td class="tbid">id</td>
+                    <td class="tbnome">Nome</td>
+                    <td class="tbdesc">Telefone</td>
+                    <td class="tbimg">E-mail</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td id="rsnome"></td>
+                    <td id="rstelefone"></td>
+                    <td id="rsemail"></td>
+                </tr>
+                <tr>
+                    <td >2</td>
+                    <td id=""></td>
+                    <td id=""></td>
+                    <td id=""></td>
+                </tr>
+                <tr>
+                    <td >3</td>
+                    <td id=""></td>
+                    <td id=""></td>
+                    <td id=""></td>
+                </tr>
+                <tr>
+                    <td >4</td>
+                    <td id=""></td>
+                    <td id=""></td>
+                    <td id=""></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>

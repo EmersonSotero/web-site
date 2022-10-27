@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: linear-gradient( rgb(196,196,196) 15%, rgb(68, 255, 255));
+    height: 100vh;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px 10px 30px ;
+    width: 100%;
+    height: 50px;
+    background-color: #204149;
+    color: white;
+}
+
+.menu li{
+    display:inline-block;
+    text-decoration: none;
+}
+
+.cabecalho .menu ul li{
+    margin-left: 100px;
+    transition: 0.3s;
+
+}
+
+.cabecalho .menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.cabecalho .menu a:hover{
+    text-decoration: underline;
+}
+
+.formulario, .catalogo{
+    margin: 20px 0px;
+    padding: 20px;
+    width: 80%;
+    background-color: rgba(152, 209, 209, 0.1);
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+.formulario{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.formulario h2, .dados{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.catalogo{
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    height: max-content;
+}
+
+.catalogo h2{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 800px;
+    
+}
+
+table td{
+    border: 1px solid black;
+}
